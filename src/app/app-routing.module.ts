@@ -17,9 +17,9 @@ const routes: Routes = [
 
 // keep getting error message about no call signature, 'validtors' and declaration expection
 // page appears blank
-@new NgModel({
-    imports: [RouterModule.forRoot(routes)],
-    exports: [RouterModule],
-})
-// new NgModel()
+// @new NgModel({
+//     imports: [RouterModule.forRoot(routes)],
+//     exports: [RouterModule],
+// })
+
 export class AppRoutingModule {}
